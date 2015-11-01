@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RAA_Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="second_page">Hello this is the second_page</string>
+    <string name="title_activity_my_ra">My RAA</string>
+</resources>
