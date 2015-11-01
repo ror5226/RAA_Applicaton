@@ -1,15 +1,11 @@
 package com.example.raa.raa_application;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.view.View.OnClickListener;
 import android.view.View;
 import android.content.Intent;
-import android.widget.TextView;
-import android.os.Bundle;
 import android.app.Activity;
 
 
@@ -18,9 +14,9 @@ public class Login extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_page);
+        setContentView(R.layout.activity_login);
 
-        Button button = (Button) findViewById(R.id.button);
+        Button button = (Button) findViewById(R.id.LoginButton);
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -33,7 +29,7 @@ public class Login extends Activity {
     }
 
     private void goToSecondActivity(){
-        Intent intent = new Intent(this, MainPage.class);
+        Intent intent = new Intent(this, UserRAAPage.class);
         startActivity(intent);
     }
 

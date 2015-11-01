@@ -18,8 +18,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainPage"
-            android:label="@string/title_activity_main_page" >
+            android:name=".UserRAAPage"
+            android:label="@string/title_activity_user_raapage" >
+        </activity>
+        <activity
+            android:name=".UserInbox"
+            android:label="@string/title_activity_user_inbox" >
         </activity>
     </application>
 
